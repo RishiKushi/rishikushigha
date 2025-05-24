@@ -35,4 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo $JAVA_HOME_17_X64
-          echo "${{toJSON(github)}}"
+          echo "${{toJSON(workspace)}}"
+          echo "${{output}}"
