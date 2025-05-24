@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello RishiKushi"
       - name: print bye
         run: echo "Bye"
+      - name: Print JAVA_HOME_17_X64
+        run: echo $JAVA_HOME_17_X64
